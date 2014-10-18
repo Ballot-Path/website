@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'office/index'
+
+  get 'office/show'
+
+  get 'office/get_offices_by_point'
+
+  get 'office/get_office_by_dirails'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
