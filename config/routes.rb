@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'offices/index'
+
+  get 'offices/show'
+
+  get 'offices/get_offices_by_point'
+
+  get 'offices/get_office_by_dirails'
+
   get 'office/index'
 
   get 'office/show'
